@@ -28,9 +28,7 @@ Use the Week 1 outline as a template (see `slidev/week-01/outline.md`).
 
 ### Step 2: Generate Images
 
-#### Primary Tool: Nano Banana Pro (Recommended)
-
-Most Week 1 images were generated using **Nano Banana Pro** (Google's Gemini 3 Pro Image model), which excels at:
+Use **Nano Banana Pro** (Google's Gemini 3 Pro Image model) to generate diagrams. It excels at:
 - Clear, readable text in diagrams
 - Professional infographic layouts
 - Accurate technical diagrams
@@ -39,24 +37,13 @@ Most Week 1 images were generated using **Nano Banana Pro** (Google's Gemini 3 P
 **Access options:**
 - [Google AI Studio](https://aistudio.google.com/) (Gemini API)
 - Google AI Plus/Pro/Ultra subscription
-- Various wrapper tools (see [nanobanana.org](https://nanobanana.org/))
+- [nanobanana.org](https://nanobanana.org/) and other wrapper tools
 
 **Workflow:**
 1. Copy the diagram prompt from your outline
 2. Paste into Nano Banana Pro
 3. Iterate: "make the text larger", "use a horizontal layout", "add more contrast"
 4. Download PNG to `slidev/week-XX/public/images/`
-
-#### Alternative: Excalidraw AI
-
-For hand-drawn style diagrams, use **Excalidraw AI** (at [plus.excalidraw.com](https://plus.excalidraw.com)):
-
-1. Open Excalidraw → More tools → Text to diagram
-2. Paste the diagram prompt from your outline
-3. Iterate using chat: "make it more compact", "change to vertical layout", etc.
-4. Export as PNG
-
-See `excalidraw-pointers.md` in the repo root for detailed Excalidraw prompting tips.
 
 **Naming convention:** `slide-XX-description.png` (e.g., `slide-03-input-model-output.png`)
 
@@ -180,7 +167,7 @@ slidev/
 
 3. **Create outline** with diagram prompts
 
-4. **Generate images** using Excalidraw AI
+4. **Generate images** using Nano Banana Pro
 
 5. **Write slides.md** based on outline
 
@@ -260,7 +247,5 @@ After initial generation:
 - [Slidev Syntax](https://sli.dev/guide/syntax)
 
 **Image Generation:**
-- [Nano Banana Pro](https://nanobanana.org/) - Primary tool for Week 1 diagrams (Gemini 3 Pro Image)
+- [Nano Banana Pro](https://nanobanana.org/) - Gemini 3 Pro Image model
 - [Google AI Studio](https://aistudio.google.com/) - Direct access to Gemini models
-- [Excalidraw AI](https://plus.excalidraw.com) - Hand-drawn style diagrams (requires Plus subscription)
-- Local reference: `excalidraw-pointers.md` in repo root
