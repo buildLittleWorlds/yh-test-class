@@ -268,32 +268,26 @@ layout: default
 
 # Let's Figure This Out
 
-<div class="space-y-8 mt-8">
+<div class="space-y-4 mt-4">
 
 <v-click>
 
-### Question 1
 **Why does more detail = better results?**
-
-Think about: "draw a cat" vs "draw a fluffy orange tabby cat curled up on a blue velvet couch"
+<span class="text-gray-500 text-sm">Think: "a cat" vs "fluffy orange tabby on a blue velvet couch"</span>
 
 </v-click>
 
 <v-click>
 
-### Question 2
 **Why does AI struggle with hands and text?**
-
-Hint: How consistent are hands in photos? Does "A" always look the same?
+<span class="text-gray-500 text-sm">Hint: How consistent are hands in photos? Does "A" always look the same?</span>
 
 </v-click>
 
 <v-click>
 
-### Question 3
 **Can AI understand *why* a photo is funny?**
-
-Or the emotional meaning? Or what happened before/after?
+<span class="text-gray-500 text-sm">Or the emotional meaning? Or what happened before/after?</span>
 
 </v-click>
 

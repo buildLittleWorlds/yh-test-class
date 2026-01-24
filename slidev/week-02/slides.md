@@ -422,12 +422,12 @@ layout: default
 
 # Zero-Shot Classification
 
-<div class="grid grid-cols-2 gap-8 mt-4">
+<div class="grid grid-cols-2 gap-4 mt-2">
 <div>
 
 <v-click>
 
-## Classify text into categories YOU define
+**Classify text into categories YOU define**
 
 </v-click>
 
@@ -435,7 +435,6 @@ layout: default
 
 ```python
 classifier = pipeline("zero-shot-classification")
-
 classifier(
     "I need to finish my homework",
     candidate_labels=["school", "sports", "food"]
@@ -446,9 +445,7 @@ classifier(
 
 <v-click>
 
-<div class="mt-4 text-green-600 font-bold">
-Even categories it wasn't trained on!
-</div>
+<span class="text-green-600 font-bold text-sm">Even categories it wasn't trained on!</span>
 
 </v-click>
 
@@ -457,24 +454,13 @@ Even categories it wasn't trained on!
 
 <v-click>
 
-## Use cases:
-
-- Sorting emails
-- Categorizing feedback
-- Organizing content
+**Use cases:** Sorting emails, categorizing feedback, organizing content
 
 </v-click>
 
-<div class="mt-6">
-
-<a href="https://huggingface.co/tasks/zero-shot-classification" target="_blank" class="text-blue-600 hover:underline">
-  Try the demo →
-</a>
-
-</div>
-
-<div class="mt-2 text-blue-600">
-→ Then try in notebook
+<div class="mt-4">
+<a href="https://huggingface.co/tasks/zero-shot-classification" target="_blank" class="text-blue-600 hover:underline">Try the demo →</a>
+<span class="text-blue-600 ml-2">Then try in notebook</span>
 </div>
 
 </div>
@@ -486,12 +472,12 @@ layout: default
 
 # Question Answering
 
-<div class="grid grid-cols-2 gap-8 mt-4">
+<div class="grid grid-cols-2 gap-4 mt-2">
 <div>
 
 <v-click>
 
-## Answer questions from a passage of text
+**Answer questions from a passage of text**
 
 </v-click>
 
@@ -499,13 +485,9 @@ layout: default
 
 ```python
 qa = pipeline("question-answering")
-
 qa(
     question="What is AI?",
-    context="AI stands for Artificial Intelligence.
-    It refers to computer systems that can
-    perform tasks that typically require
-    human intelligence."
+    context="AI stands for Artificial Intelligence..."
 )
 ```
 
@@ -516,26 +498,15 @@ qa(
 
 <v-click>
 
-## You provide:
-- **Context** — the text to search
-- **Question** — what you want to know
+**You provide:** Context (text to search) + Question
 
-## Model returns:
-- **Answer** — extracted from context
-- **Confidence** — how sure it is
+**Model returns:** Answer + Confidence score
 
 </v-click>
 
 <div class="mt-4">
-
-<a href="https://huggingface.co/tasks/question-answering" target="_blank" class="text-blue-600 hover:underline">
-  Try the demo →
-</a>
-
-</div>
-
-<div class="mt-2 text-blue-600">
-→ Then try in notebook
+<a href="https://huggingface.co/tasks/question-answering" target="_blank" class="text-blue-600 hover:underline">Try the demo →</a>
+<span class="text-blue-600 ml-2">Then try in notebook</span>
 </div>
 
 </div>
@@ -667,25 +638,21 @@ backgroundSize: contain
 
 <v-click>
 
-## Save your notebook to GitHub:
-
-1. **File** > **Download** > **.ipynb**
-2. Upload to your `ai-explorer` repo
+**Save your notebook to GitHub:**
+File > Download > .ipynb → Upload to `ai-explorer` repo
 
 </v-click>
 
 <v-click>
 
-## Next week: AI as Your Coding Partner
-
-- Use ChatGPT/Claude to write code **FOR** you
-- Understand and modify what they create
+**Next week: AI as Your Coding Partner**
+Use ChatGPT/Claude to write code FOR you, then understand and modify it
 
 </v-click>
 
 <v-click>
 
-## Code pattern to remember:
+**Code pattern to remember:**
 
 ```python
 from transformers import pipeline

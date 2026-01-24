@@ -363,7 +363,7 @@ Copy what it gives you into your notebook!
 
 # Steps 2-3: Run & Understand
 
-<div class="grid grid-cols-2 gap-8 mt-4">
+<div class="grid grid-cols-2 gap-4 mt-2">
 <div>
 
 **Run it - did it work?**
@@ -371,10 +371,9 @@ Copy what it gives you into your notebook!
 <v-clicks>
 
 Common issues:
-
 - Missing `!pip install` at the top
 - Model name typos
-- Indentation errors (Python is picky!)
+- Indentation errors
 
 </v-clicks>
 
@@ -384,11 +383,9 @@ Common issues:
 <v-click>
 
 **Let's understand it together:**
-
 - What libraries does it import?
 - How does it create pipelines?
 - What's the function structure?
-- How does it format output?
 
 </v-click>
 
@@ -397,11 +394,11 @@ Common issues:
 
 <v-click>
 
-<div class="mt-8 p-4 bg-yellow-100 rounded-lg text-center">
-<strong>Key pattern to remember:</strong>
-<code class="block mt-2">from transformers import pipeline</code>
-<code class="block">model = pipeline("task-name")</code>
-<code class="block">result = model("input")</code>
+<div class="mt-4 p-3 bg-yellow-100 rounded-lg text-center text-sm">
+<strong>Key pattern:</strong>
+<code>from transformers import pipeline</code> →
+<code>model = pipeline("task")</code> →
+<code>result = model("input")</code>
 </div>
 
 </v-click>
@@ -602,33 +599,25 @@ Read code like you're solving a mystery!
 
 # Modify Without AI Help
 
-<div class="mt-4">
-
 **Challenge:** Can you modify this code yourself?
 
-</div>
-
-```python {all|3|11|13-14}
+```python {all|3|10|11}
 def email_sorter(texts):
     classifier = pipeline("zero-shot-classification")
     categories = ["urgent", "normal", "spam"]  # Add "promotional"?
-
     results = []
     for text in texts:
         result = classifier(text, categories)
         results.append({'message': text, 'category': result['labels'][0]})
-
     urgent_count = sum(1 for r in results if r['category'] == 'urgent')
     # TODO: Count spam too?
-
     # TODO: Warning if too many urgent/spam?
-
     return results, urgent_count
 ```
 
 <v-click>
 
-<div class="mt-4 text-center">
+<div class="text-center text-sm mt-2">
 Try yourself first, then use AI if stuck. This builds real understanding!
 </div>
 
@@ -638,25 +627,21 @@ Try yourself first, then use AI if stuck. This builds real understanding!
 
 # Ask Good Questions About Code
 
-<div class="mt-8">
-
 When you see code you don't understand, ask AI to explain:
-
-</div>
 
 <v-clicks>
 
-<div class="grid grid-cols-1 gap-4 mt-8">
+<div class="grid grid-cols-1 gap-2 mt-4">
 
-<div class="p-4 bg-gray-100 rounded-lg">
+<div class="p-3 bg-gray-100 rounded-lg text-sm">
 "What does this line do: <code>sum(1 for r in results if r['category'] == 'urgent')</code>"
 </div>
 
-<div class="p-4 bg-gray-100 rounded-lg">
+<div class="p-3 bg-gray-100 rounded-lg text-sm">
 "Explain the f-string on the print line"
 </div>
 
-<div class="p-4 bg-gray-100 rounded-lg">
+<div class="p-3 bg-gray-100 rounded-lg text-sm">
 "What's the difference between <code>result['labels'][0]</code> and <code>result['labels']</code>?"
 </div>
 
@@ -666,7 +651,7 @@ When you see code you don't understand, ask AI to explain:
 
 <v-click>
 
-<div class="mt-8 text-center text-xl">
+<div class="mt-4 text-center text-xl">
 Use AI to <strong>learn</strong>, not just to generate!
 </div>
 
