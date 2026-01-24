@@ -8,11 +8,11 @@
 
 - [x] Created `outline.md` with 18 slides
 - [x] Created `package.json` for Slidev
-- [ ] Generate images using Nano Banana Pro
-- [ ] Create `slides.md` presentation
-- [ ] Update GitHub Action to build week-02
-- [ ] Test locally
-- [ ] Deploy
+- [x] Generate images using Nano Banana Pro
+- [x] Create `slides.md` presentation
+- [x] Update GitHub Action to build week-02
+- [x] Test locally (build verified)
+- [ ] Deploy (push to main)
 
 ---
 
@@ -68,6 +68,7 @@ Clean, friendly infographic style with simple icons. Educational diagram for stu
 ---
 
 ### 3. `slide-06-notebook-cells.png`
+
 
 ```
 Diagram showing two types of notebook cells stacked vertically:
