@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Slidev build output
+dist/
+.slidev/
+
+# OS files
+.DS_Store
+
+# Editor
+.vscode/
+*.swp
+
+# Environment
+.env
+.env.local
