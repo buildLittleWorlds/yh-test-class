@@ -23,7 +23,7 @@ Each week includes **slides** (for instruction) and a **notebook** (for hands-on
 |------|-------|--------|----------|
 | 1 | What's Possible with AI? | [![Slides](https://img.shields.io/badge/Slides-View-blue)](https://buildlittleworlds.github.io/yh-test-class/week-01/) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/buildLittleWorlds/yh-test-class/blob/main/notebooks/week-01-whats-possible.ipynb) |
 | 2 | Running Your First Models | [![Slides](https://img.shields.io/badge/Slides-View-blue)](https://buildlittleworlds.github.io/yh-test-class/week-02/) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/buildLittleWorlds/yh-test-class/blob/main/notebooks/week-02-running-models.ipynb) |
-| 3 | AI as Your Coding Partner | *Coming soon* | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/buildLittleWorlds/yh-test-class/blob/main/notebooks/week-03-ai-coding-partner.ipynb) |
+| 3 | AI as Your Coding Partner | [![Slides](https://img.shields.io/badge/Slides-View-blue)](https://buildlittleworlds.github.io/yh-test-class/week-03/) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/buildLittleWorlds/yh-test-class/blob/main/notebooks/week-03-ai-coding-partner.ipynb) |
 
 ### Phase 2: Specialization
 

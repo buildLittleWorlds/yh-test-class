@@ -39,11 +39,18 @@ jobs:
           npm ci
           npx slidev build --base /yh-test-class/week-02/
 
+      - name: Build Week 03 slides
+        working-directory: slidev/week-03
+        run: |
+          npm ci
+          npx slidev build --base /yh-test-class/week-03/
+
       - name: Prepare deployment folder
         run: |
           mkdir -p dist
           mv slidev/week-01/dist dist/week-01
           mv slidev/week-02/dist dist/week-02
+          mv slidev/week-03/dist dist/week-03
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

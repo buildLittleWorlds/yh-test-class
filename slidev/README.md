@@ -8,7 +8,7 @@ Interactive slide presentations for the Youth Horizons AI Researcher Program, bu
 |------|-------|-------------|
 | 1 | What's Possible with AI? | [View](https://buildlittleworlds.github.io/yh-test-class/week-01/) |
 | 2 | Running Your First Models | [View](https://buildlittleworlds.github.io/yh-test-class/week-02/) |
-| 3 | AI as Your Coding Partner | *Coming soon* |
+| 3 | AI as Your Coding Partner | [View](https://buildlittleworlds.github.io/yh-test-class/week-03/) |
 
 ---
 
