@@ -24,7 +24,7 @@ Create `slidev/week-XX/outline.md` with:
 2. **Image inventory** — Which slides need diagrams
 3. **Diagram generation prompts** — Specific prompts for creating each image
 
-Use the Week 1 outline as a template (available in `archive/slides/week-01/outline.md`).
+Use the Week 1 outline as a template (see `slidev/week-01/outline.md`).
 
 ### Step 2: Generate Images
 
