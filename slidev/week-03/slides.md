@@ -180,20 +180,11 @@ When asking AI to write code:
 
 <v-clicks>
 
-- **C** - Context
-  - "I'm working in Google Colab..."
-
-- **L** - Language/Libraries
-  - "Using Python and transformers..."
-
-- **E** - Explain the goal
-  - "I want to analyze sentiment..."
-
-- **A** - Ask specifically
-  - "Write a function called..."
-
-- **R** - Requirements
-  - "Include comments, handle errors..."
+- **C** - Context: "I'm in Google Colab..."
+- **L** - Language: "Using Python + transformers..."
+- **E** - Explain: "I want to analyze sentiment..."
+- **A** - Ask: "Write a function called..."
+- **R** - Requirements: "Include comments..."
 
 </v-clicks>
 
@@ -459,23 +450,13 @@ backgroundSize: contain
 
 <v-clicks>
 
-**A: Review Analyzer**
-- Analyze product/movie reviews
-- Calculate overall sentiment
-- Find best & worst reviews
+**A: Review Analyzer** — Analyze reviews, calculate sentiment, find best/worst
 
-**B: Homework Helper**
-- Summarize any topic
-- Extract key facts
-- Generate quiz questions
+**B: Homework Helper** — Summarize topics, extract facts, make quizzes
 
-**C: Story Starter**
-- Generate story openings
-- Analyze mood of each
-- Continue your favorite
+**C: Story Starter** — Generate openings, analyze mood, continue favorite
 
-**D: Your Own Idea**
-- What do YOU want to build?
+**D: Your Own Idea** — What do YOU want to build?
 
 </v-clicks>
 

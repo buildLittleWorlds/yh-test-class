@@ -556,22 +556,17 @@ backgroundSize: contain
 
 <v-clicks>
 
-## Challenge 1: Trick Sentiment
-Find **3 sentences** that fool it
+**Challenge 1: Trick Sentiment** — Find 3 sentences that fool it
 
-## Challenge 2: Multi-Pipeline
-Run the **same text** through different pipelines — what does each reveal?
+**Challenge 2: Multi-Pipeline** — Run same text through different pipelines
 
-## Challenge 3: Chain Them
-**Generate text** → **Analyze its sentiment**
-
-Output of one = Input of next
+**Challenge 3: Chain Them** — Generate text → Analyze its sentiment
 
 </v-clicks>
 
 <v-click>
 
-<div class="mt-4 text-center text-purple-600 font-bold text-xl">
+<div class="mt-4 text-center text-purple-600 font-bold">
 AI models have patterns — find them!
 </div>
 
